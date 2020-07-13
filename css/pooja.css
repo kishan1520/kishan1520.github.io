@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.main {
+    position: relative;
+    margin-bottom: 100px;
+    max-width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    color: black;
+    font-size: 60px;
+    font-family: Berlin Sans FB;
+    font-weight: bold;
+}
+
+.sub_title {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    color: black;
+    font-size: 28px;
+    font-family: Centaur;
+    font-weight: bolder;
+}
+
+.see_resume:hover {
+    background-color: #43bcc0;
+    color: rgb(5, 13, 14);
+}
+
+.see_resume {
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    padding: 10px 20px;
+    background-color: rgb(18, 223, 238);
+    font-size: 20px;
+    border-color: rgb(49, 120, 139);
+    color: rgb(7, 5, 5);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.specilization {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.spc_title {
+    font-weight: bolder;
+    color: rgb(255, 251, 251);
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: Georgia;
+}
+
+p {
+    color: rgb(255, 251, 251);
+    font-size: 30px;
+}
+
+.pic {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#pic_java {
+    float: left;
+    position: relative;
+    left: 5%;
+}
+
+#pic_py {
+    float: right;
+}
+
+.ja {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    color: black;
+    font-weight: bolder;
+}
+
+.jm {
+    position: absolute;
+    top: 82%;
+    color: black;
+    left: 32%;
+}
+
+.pyt {
+    position: absolute;
+    top: 30%;
+    left: 52%;
+}
+
+.pytm {
+    position: absolute;
+    top: 82%;
+    left: 75%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.project_title {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.project_img {
+    text-align: center;
+}
+
+.prev {
+    margin-bottom: 200px;
+}
+
+.next {
+    margin-bottom: 200px;
+}
+
+.actual_img {
+    border-radius: 15px;
+}
+
+.project_desc {
+    margin-left: 180px;
+}
+
+.project_content {
+    text-align: left;
+    color: white;
+}
+
+.project_name {
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.resume {
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+.img_container {
+    float: left;
+    width: 33%;
+    padding-top: 50px;
+}
+
+.img_resume {
+    border-radius: 15px;
+}
+
+.contact_me {
+    margin-top: 100px;
+    text-align: center;
+    justify-content: left;
+}
